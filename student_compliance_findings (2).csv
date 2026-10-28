@@ -1,0 +1,10 @@
+Student Record,Institution,Issue,Evidence,Severity,Reason,Recommended Action
+STU028,Sunrise Institute of Technology,Missing APAAR ID,APAAR ID is empty,High,The student record has no APAAR ID.,Verify the student's APAAR ID and update the record.
+STU003,Sunrise Institute of Technology,Duplicate APAAR ID,APAR-DEMO-1003,High,The same APAAR ID appears in multiple student records.,Review the records and confirm whether they belong to the same student.
+STU027,Greenfield Engineering College,Duplicate APAAR ID,APAR-DEMO-1003,High,The same APAAR ID appears in multiple student records.,Review the records and confirm whether they belong to the same student.
+STU029,Riverdale Polytechnic,Invalid demo ID format,INVALID-29,Medium,The ID does not match the expected demo format.,Check the ID format against the configured demo rule.
+STU030,Unknown Demo Institution,Unknown institution code,INST999,High,The institution code was not found in the institution dataset.,Confirm the institution code and update the institution reference data if appropriate.
+STU031,Sunrise Institute of Technology,Invalid admission date,not-a-date,Medium,The admission date is missing or cannot be parsed.,Verify the date and enter it in a supported format.
+Multiple records,Sunrise Institute of Technology,Approved intake exceeded,B.Tech CSE: 8 records against intake of 5,High,The number of student records exceeds the configured approved intake.,Review the programme's admission count and approved intake.
+Multiple records,Greenfield Engineering College,Approved intake exceeded,B.Tech CSE: 7 records against intake of 6,High,The number of student records exceeds the configured approved intake.,Review the programme's admission count and approved intake.
+Multiple records,Riverdale Polytechnic,Approved intake exceeded,Diploma CSE: 5 records against intake of 4,High,The number of student records exceeds the configured approved intake.,Review the programme's admission count and approved intake.
